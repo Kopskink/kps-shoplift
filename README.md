@@ -33,7 +33,7 @@ Players can attempt to shoplift at configured locations, receiving random loot i
 
 ## Preview
 
-Video on YouTube: 
+Video on YouTube: https://youtu.be/SOEVk4TsKeM
 
 ## License
 
