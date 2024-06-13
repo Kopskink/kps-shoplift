@@ -23,9 +23,9 @@ Supports multiple languages, with premade English and Estonian locales available
 1. Place the `kps-shoplift` folder in your FiveM server's resources directory.
 2. Add `ensure kps-shoplift` to your `server.cfg` file.
 3. Customize the `config.lua` file as needed.
-4. Ensure your targeting system ('ox' or 'qb') is properly set up on your server.
-5. Run the preconfigured `ox_doorlock` sql query
-6. Restart the server
+4. Ensure your targeting system ( 'ox' or 'qb' ) is properly set up on your server.
+5. Run the preconfigured `ox_doorlock` sql query.
+6. Restart the server.
 
 ## Usage
 
