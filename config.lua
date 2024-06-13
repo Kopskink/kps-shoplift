@@ -10,7 +10,7 @@ Config.Target = 'ox' -- the targeting system your server uses (ox or qb) | I hav
 Config.Loot = {"aidkit", "sandwich", "scratch_ticket"} -- the player will receive one of these from the shoplift
 
 Config.RobCooldown = 5 -- in minutes (cooldown allowing to snatch items again)
-Config.DoorsClosed = 5 -- in seconds
+Config.DoorsClosed = 60 -- in seconds
 Config.GrabbingItems = 2500 -- in milliseconds (how long the person is grabbing items for)
 
 Config.Location = {
