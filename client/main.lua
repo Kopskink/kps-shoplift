@@ -85,8 +85,9 @@ AddEventHandler('kps-shoplift:client:steal', function(data)
                 end
             end)
         else
-            print('Police requirement disabled. Proceeding with robbery...')
-            -- Proceed with the theft process without checking police count
+            if Config.Debug then
+            print('Police requirement disabled. Proceeding with robbery...') -- Proceed with the theft process without checking police count
+                end
             if Config.Debug then
                 print("Progressbar started")
             end
