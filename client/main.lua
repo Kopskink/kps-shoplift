@@ -121,7 +121,7 @@ AddEventHandler('kps-shoplift:client:alertcops', function(data)
     end
 
     local store = data.name
-    local place = Config.Location[store].coords
+    -- local place = Config.Location[store].coords
 
     if Config.Debug then
         print("Alert cops event triggered for store: " .. store)
