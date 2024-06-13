@@ -31,6 +31,10 @@ Supports multiple languages, with premade English and Estonian locales available
 
 Players can attempt to shoplift at configured locations, receiving random loot items defined in the config file and potentially alerting the police, with cooldowns and timers managed by the script.
 
+## Preview
+
+Video on YouTube: 
+
 ## License
 
 This project is licensed under the MIT License.
