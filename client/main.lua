@@ -28,6 +28,7 @@ for table, value in pairs(Config.Location) do
 
     elseif Config.Target == 'qb' then
         exports['qb-target']:AddBoxZone(table, vector3(value.coords.x, value.coords.y, value.coords.z - 0.5), 1.5, 0.8, {
+            name = table,
             heading = value.rotation,
             debugPoly = Config.Debug,
             minZ = value.coords.z - 0.5,
@@ -39,7 +40,6 @@ for table, value in pairs(Config.Location) do
                     event = "kps-shoplift:client:steal",
                     icon = "fas fa-user-ninja",
                     label = Lang:t("target.shoplift"),
-                    name = table,
                 },
             },
             distance = 1.0
